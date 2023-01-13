@@ -3,7 +3,7 @@
 Your work in the course will be completed in this workspace. Instructions for the two most common tasks you'll perform can be found below.
 
 ## Backup Your Work
-
+hi
 "Push" your work up to GitHub for backup. By creating "commits", which you can think of as versioned checkpoints in your workspace, you are not at risk of losing your work. It's easy to revert back to an old version or to restore your entire workspace on a different computer.
 
 1. Select the _View_ menu and then _SCM_ (Source Control Management)
