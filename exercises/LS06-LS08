@@ -1,0 +1,8 @@
+age: int = 21
+msg: str = f"Your are {age}!"
+print(msg)
+print("Hello\nworld\n!!!")
+
+s: str = ""
+f: str = s + "e"
+print (f)

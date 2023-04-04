@@ -1,0 +1,24 @@
+"""EX06 -- Choose Your Own Adventure."""
+
+__author__ = "730461000"
+
+if __name__ == "__main__":
+    main()
+
+points: int = 0
+
+chalquestions_and_lessons = list[int] = input[What ]
+
+def denom(num_assignments: int) -> int:
+    
+
+
+def grade_sum(scores_assignment: list[float]) -> float:
+    """Return sum of all elements in xs."""
+    sum_total: float = 0.0
+    for item in scores_assignment:
+        sum_total += item
+    return sum_total
+
+final grade: int = def() * weight_
+print(final_grade)

@@ -1,0 +1,16 @@
+def favorite_color(orig_dict: dict[str, str]) -> str:
+    """Given a dictionary, find the value that occurs most frequently."""
+    freq_color: str = ""
+    freq_num: int = 0
+    color_dict: dict[str, int] = dict()
+    for keys in orig_dict:
+        color_key: str = orig_dict[keys]
+        if color_key in color_dict:
+            color_dict[color_key] += 1
+    for keys in color_dict:
+        freq_num = color_dict[keys]
+        if color_dict[keys] > freq_num:
+            freq_color = keys
+    return freq_color
+
+print(favorite_color({"Marc": "yellow", "Ezri": "blue", "Kris": "blue"}))
