@@ -13,4 +13,7 @@ def favorite_color(orig_dict: dict[str, str]) -> str:
             freq_color = keys
     return freq_color
 
-print(favorite_color({"Marc": "yellow", "Ezri": "blue", "Kris": "blue"}))
+print(favorite_color({"Marc": "yellow", "Ezri": "blue", "Kris": "blue"})
+
+
+append
